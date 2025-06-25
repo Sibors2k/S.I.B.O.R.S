@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+*.bak
+*.tmp
+
+# Entornos virtuales
+.venv/
+venv/
+.env
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos temporales
+*.qrc~
+*.qss~
+assets/.tmp*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba, reporte o exportación
+*.xlsx

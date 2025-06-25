@@ -1,0 +1,146 @@
+/* === FUENTE Y COLORES BASE === */
+* {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px;
+    color: #313c45;
+}
+
+QMainWindow, QWidget {
+    background-color: #f8f9fa;
+}
+
+/* === INPUTS Y CAMPOS DE TEXTO === */
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox, QDateEdit, QTextEdit {
+    background-color: #ffffff;
+    border: 1px solid #313c45;
+    border-radius: 4px;
+    padding: 6px;
+    color: #313c45;
+    selection-background-color: #cde2f9;
+}
+
+QLineEdit::placeholder,
+QTextEdit::placeholder {
+    color: #9ca3af;
+}
+
+QComboBox::drop-down {
+    background: transparent;
+    border-left: 1px solid #313c45;
+}
+
+/* === BOTONES === */
+QPushButton {
+    background-color: #313c45;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 14px; /* Aumentado ligeramente para mejor tacto */
+    min-height: 20px; /* Altura mínima consistente */
+}
+QPushButton:hover {
+    background-color: #49545d;
+}
+QPushButton:pressed {
+    background-color: #21292f;
+}
+
+/* Propiedad personalizada para botones destructivos */
+QPushButton[destructive="true"] {
+    background-color: #d62828;
+}
+QPushButton[destructive="true"]:hover {
+    background-color: #a61d1d;
+}
+QPushButton[destructive="true"]:pressed {
+    background-color: #8b1818;
+}
+
+
+/* === CHECKBOX Y RADIO === */
+QCheckBox, QRadioButton {
+    color: #313c45;
+    spacing: 6px;
+}
+QCheckBox::indicator, QRadioButton::indicator {
+    width: 14px;
+    height: 14px;
+}
+
+/* === TABLAS === */
+QHeaderView::section {
+    background-color: #e9ecef;
+    color: #313c45;
+    padding: 8px; /* Aumentado para mejor legibilidad */
+    border: 1px solid #dee2e6;
+    font-weight: bold;
+}
+
+QTableView, QTableWidget {
+    background-color: #ffffff;
+    alternate-background-color: #f1f3f5;
+    border: 1px solid #ced4da;
+    gridline-color: #dee2e6;
+    /* La propiedad selection-behavior se establece en el código Python, no aquí. */
+    padding: 2px;
+}
+
+QTableView::item, QTableWidget::item {
+    padding: 6px; /* Espaciado interno para las celdas */
+}
+
+QTableView::item:selected, QTableWidget::item:selected {
+    background-color: #0078d7;
+    color: white;
+}
+
+/* === TOOLTIP === */
+QToolTip {
+    background-color: #313c45;
+    color: white;
+    border: 1px solid #49545d;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* === SCROLLBAR === */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #f1f3f5;
+    width: 12px;
+    margin: 2px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle {
+    background: #ced4da;
+    border-radius: 6px;
+}
+QScrollBar::handle:hover {
+    background: #adb5bd;
+}
+QScrollBar::add-line, QScrollBar::sub-line {
+    height: 0px;
+    width: 0px;
+}
+
+/* === MESSAGEBOX === */
+QMessageBox {
+    background-color: #f8f9fa;
+}
+
+QMessageBox QLabel {
+    color: #313c45;
+    padding: 4px;
+    font-size: 14px;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px; /* Ancho mínimo para botones OK/Cancel */
+    padding: 6px 12px;
+}
+/* Estilo para el título del producto en el panel de detalles */
+QLabel#detailTitle {
+    font-size: 20px; /* Puedes ajustar este tamaño */
+    font-weight: bold;
+    margin-bottom: 10px; /* Espacio debajo del título */
+}

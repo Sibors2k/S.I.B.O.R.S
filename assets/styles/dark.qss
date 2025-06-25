@@ -1,0 +1,146 @@
+/* === FUENTE Y COLORES BASE (TEMA OSCURO) === */
+* {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px;
+    color: #e0e7ec; /* Texto claro */
+}
+
+QMainWindow, QWidget {
+    background-color: #21292f; /* Fondo oscuro principal */
+}
+
+/* === INPUTS Y CAMPOS DE TEXTO === */
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox, QDateEdit, QTextEdit {
+    background-color: #2b343b; /* Fondo de input ligeramente más claro */
+    border: 1px solid #49545d; /* Borde sutil */
+    border-radius: 4px;
+    padding: 6px;
+    color: #e0e7ec; /* Texto claro */
+    selection-background-color: #005a9e; /* Selección un poco más oscura */
+}
+
+QLineEdit::placeholder,
+QTextEdit::placeholder {
+    color: #828a90;
+}
+
+QComboBox::drop-down {
+    background: transparent;
+    border-left: 1px solid #49545d;
+}
+
+/* === BOTONES === */
+QPushButton {
+    background-color: #49545d; /* Botón más claro que el fondo */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 14px;
+    min-height: 20px;
+}
+QPushButton:hover {
+    background-color: #5a656e;
+}
+QPushButton:pressed {
+    background-color: #313c45;
+}
+
+/* Propiedad personalizada para botones destructivos */
+QPushButton[destructive="true"] {
+    background-color: #d62828; /* Se mantiene el mismo rojo */
+}
+QPushButton[destructive="true"]:hover {
+    background-color: #a61d1d;
+}
+QPushButton[destructive="true"]:pressed {
+    background-color: #8b1818;
+}
+
+
+/* === CHECKBOX Y RADIO === */
+QCheckBox, QRadioButton {
+    color: #e0e7ec;
+    spacing: 6px;
+}
+QCheckBox::indicator, QRadioButton::indicator {
+    width: 14px;
+    height: 14px;
+    background-color: #2b343b;
+    border: 1px solid #49545d;
+    border-radius: 2px;
+}
+QCheckBox::indicator:checked, QRadioButton::indicator:checked {
+    background-color: #0078d7; /* Usamos el color de acento */
+}
+
+
+/* === TABLAS === */
+QHeaderView::section {
+    background-color: #313c45; /* Cabecera más oscura */
+    color: #e0e7ec;
+    padding: 8px;
+    border: 1px solid #49545d;
+    font-weight: bold;
+}
+
+QTableView, QTableWidget {
+    background-color: #2b343b;
+    alternate-background-color: #313c45; /* Alternancia sutil */
+    border: 1px solid #49545d;
+    gridline-color: #49545d;
+    padding: 2px;
+}
+
+QTableView::item, QTableWidget::item {
+    padding: 6px;
+}
+
+QTableView::item:selected, QTableWidget::item:selected {
+    background-color: #0078d7; /* Se mantiene el mismo azul de acento */
+    color: white;
+}
+
+/* === TOOLTIP === */
+QToolTip {
+    background-color: #e0e7ec; /* Tooltip claro para contraste */
+    color: #21292f;
+    border: 1px solid #adb5bd;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* === SCROLLBAR === */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #2b343b;
+    width: 12px;
+    margin: 2px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle {
+    background: #49545d;
+    border-radius: 6px;
+}
+QScrollBar::handle:hover {
+    background: #5a656e;
+}
+QScrollBar::add-line, QScrollBar::sub-line {
+    height: 0px;
+    width: 0px;
+}
+
+/* === MESSAGEBOX === */
+QMessageBox {
+    background-color: #2b343b;
+}
+
+QMessageBox QLabel {
+    color: #e0e7ec;
+    padding: 4px;
+    font-size: 14px;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+    padding: 6px 12px;
+}

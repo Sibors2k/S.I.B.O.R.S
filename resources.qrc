@@ -1,0 +1,21 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource prefix="/icons">
+    <file alias="dashboard.png">assets/icons/dashboard.png</file>
+    <file alias="empresa.png">assets/icons/empresa.png</file>
+    <file alias="inventario.png">assets/icons/inventario.png</file>
+    <file alias="ventas.png">assets/icons/ventas.png</file>
+    <file alias="compras.png">assets/icons/compras.png</file>
+    <file alias="contabilidad.png">assets/icons/contabilidad.png</file>
+    <file alias="reportes.png">assets/icons/reportes.png</file>
+    <file alias="clientes.png">assets/icons/clientes.png</file>
+    <file alias="proveedores.png">assets/icons/proveedores.png</file>
+    <file alias="usuarios.png">assets/icons/usuarios.png</file>
+    <file alias="roles.png">assets/icons/roles.png</file>
+    <file alias="perfil.png">assets/icons/perfil.png</file>
+    <file alias="logout.png">assets/icons/logout.png</file>
+    <file alias="menu.png">assets/icons/menu.png</file>
+    <file alias="building.png">assets/icons/building.png</file>
+    <file alias="user.png">assets/icons/user.png</file>
+</qresource>
+</RCC>

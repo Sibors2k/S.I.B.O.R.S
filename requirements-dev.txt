@@ -1,0 +1,12 @@
+# requirements-dev.txt
+
+# Incluye todas las dependencias de producción
+-r requirements.txt
+
+# --- Dependencias solo para Desarrollo ---
+# Framework de Pruebas
+pytest==8.2.2
+
+# Formateadores de código
+black==24.4.2
+isort==5.13.2

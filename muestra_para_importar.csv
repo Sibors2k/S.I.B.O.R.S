@@ -1,0 +1,9 @@
+plantilla_nombre,categoria_ruta,proveedor_nombre,tipo_producto,variante_sku,variante_precio,variante_costo,variante_stock,variante_atributos,kit_componentes
+Laptop Pro X1,Electronica,Tech Imports,Simple,LP-X1,1999.99,1500,10,,
+Camiseta Basica Premium,,Tech Imports,Variante,TSH-PREM-S-Neg,29.99,12.5,50,Talla:S | Color:Negro,
+Camiseta Basica Premium,,Tech Imports,Variante,TSH-PREM-S-Bla,29.99,12.5,50,Talla:S | Color:Blanco,
+Camiseta Basica Premium,,Tech Imports,Variante,TSH-PREM-M-Neg,29.99,12.5,50,Talla:M | Color:Negro,
+Camiseta Basica Premium,,Tech Imports,Variante,TSH-PREM-M-Bla,29.99,12.5,50,Talla:M | Color:Blanco,
+Camiseta Basica Premium,,Tech Imports,Variante,TSH-PREM-L-Neg,29.99,12.5,50,Talla:L | Color:Negro,
+Camiseta Basica Premium,,Tech Imports,Variante,TSH-PREM-L-Bla,29.99,12.5,50,Talla:L | Color:Blanco,
+Kit de Oficina Esencial,Kits,Tech Imports,Kit,KIT-OFC-01,2025.0,1560,0,,LP-X1:1

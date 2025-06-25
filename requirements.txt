@@ -1,0 +1,19 @@
+# requirements.txt
+
+# Framework para la Interfaz Gráfica de Usuario
+PySide6==6.9.1
+
+# ORM para la Base de Datos y su driver para SQLite
+SQLAlchemy==2.0.25
+
+# Librería para el hasheo seguro de contraseñas
+bcrypt==4.1.2
+
+# Librería para el procesamiento de imágenes (avatares)
+Pillow==9.5.0
+
+# Librería para la generación de reportes en PDF
+reportlab==4.2.0
+
+# Librería para la generación de reportes en Excel
+openpyxl==3.1.2
